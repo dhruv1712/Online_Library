@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Niceforms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language="javascript" type="text/javascript" src="niceforms.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="niceforms-default.css" />
+</head>
+
+<body>
+<div id="container">
+<form action="vars.php" method="post" class="niceform">
+	<fieldset>
+    	<legend>Hotel Details</legend>
+        <dl>
+        	<dt><label for="email">Hotel Name:</label></dt>
+            <dd><input type="text" name="email" id="email" size="32" maxlength="128" /></dd>
+        </dl>
+        <dl>
+        	<dt><label for="password">No.of Rooms:</label></dt>
+            <dd><input type="password" name="password" id="password" size="32" maxlength="32" /></dd>
+        </dl>
+		<dl>
+			<dt><label for="Classification">Classification:</label></dt>
+				
+				  <dd><select size="1" name="classification" id="classification">
+				  <option value="1">1</option>
+				  <option value="2">hjjklj</option>
+				  <option value="3">kjlhlkjlk</option>
+				  <option value="4">4</option>
+				  </select>
+				  </dd>
+				 
+		
+		</dl>
+        <dl>
+        	<dt><label for="pms">PMS:</label></dt>
+            <dd>
+            	<select size="1" name="pms" id="pms">
+                    
+                    <option value="Girl">Girl</option>
+                    <option value="Dude">Dude</option>
+                    <option value="Chic">Chic</option>
+                    <option value="Gentleman">Gentleman</option>
+                    <option value="Lady">Lady</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Don't Ask">Don't Ask</option>
+            	</select>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><label for="comments">Message:</label></dt>
+            <dd><textarea name="comments" id="comments" rows="5" cols="60"></textarea></dd>
+        </dl>
+		<dl>
+        	<dt><label for="hotel">Hotel Type:</label></dt></br>
+            <dd>
+                <input type="checkbox" name="interests[]" id="Boutique" value="Boutique" /><label for="Boutique" class="opt">Boutique</label>
+                <input type="checkbox" name="interests[]" id="" value="Business" /><label for="Business" class="opt">Business</label>
+                <input type="checkbox" name="interests[]" id="Conference" value="Conference" /><label for="Conference" class="opt">Conference</label>
+                <input type="checkbox" name="interests[]" id="Family" value="Family" /><label for="Family" class="opt">Family</label>
+                <input type="checkbox" name="interests[]" id="Heritage" value="Heritage" /><label for="Heritage" class="opt">Heritage</label>
+				<input type="checkbox" name="interests[]" id="Inn" value="Inn" /><label for="Inn" class="opt">Inn</label>
+				<input type="checkbox" name="interests[]" id="Leisure" value="Leisure" /><label for="Leisure" class="opt">Leisure</label>
+				<input type="checkbox" name="interests[]" id="Motel" value="Motel" /><label for="Motel" class="opt">Motel</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Resort</label>
+            </dd>
+        </dl>
+		
+		<dl>
+        	<dt><label for="hotel">Facilities:</label></dt><dd>
+                <input type="checkbox" name="interests[]" id="Boutique" value="Boutique" /><label for="Boutique" class="opt">Select All</label></dd></br>
+				<dt></dt>
+            <dd>
+                <input type="checkbox" name="interests[]" id="24 hour Room Service" value="24 hour Room Service" /><label for="24 hour Room Service" class="opt">24 hour Room Service</label>
+                <input type="checkbox" name="interests[]" id="" value="Business" /><label for="Business" class="opt">Airport Shuttle</label>
+                <input type="checkbox" name="interests[]" id="Conference" value="Conference" /><label for="Conference" class="opt">Babysitting</label>
+                <input type="checkbox" name="interests[]" id="Family" value="Family" /><label for="Family" class="opt">Bar</label>
+                <input type="checkbox" name="interests[]" id="Heritage" value="Heritage" /><label for="Heritage" class="opt">Beauty Salon</label></br>
+				<input type="checkbox" name="interests[]" id="Inn" value="Inn" /><label for="Inn" class="opt">Business Centre</label>
+				<input type="checkbox" name="interests[]" id="Leisure" value="Leisure" /><label for="Leisure" class="opt">Car Rental</label>
+				<input type="checkbox" name="interests[]" id="Motel" value="Motel" /><label for="Motel" class="opt">Concierge</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Express CheckIn</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Free Parking</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Golf Course 18 hole</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Golf Course 9 hole</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Health Centre</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Kids club</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Laundry</label>
+						<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Meeting Rooms</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Paid Parking</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Restaurant</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Swimming Pool</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">Valet</label>
+				<input type="checkbox" name="interests[]" id="Resort" value="Resort" /><label for="Resort" class="opt">WiFi</label>
+				
+            </dd>
+        </dl>
+		
+		
+    </fieldset>
+    <fieldset>
+    	<legend>Preferences</legend>
+        <dl>
+        	<dt><label for="color">Favorite Color:</label></dt>
+            <dd>
+            	<input type="radio" name="color" id="colorBlue" value="Blue" /><label for="colorBlue" class="opt">Blue</label>
+                <input type="radio" name="color" id="colorRed" value="Red" /><label for="colorRed" class="opt">Red</label>
+                <input type="radio" name="color" id="colorGreen" value="Green" /><label for="colorGreen" class="opt">Green</label>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><label for="interests">Interests:</label></dt>
+            <dd>
+                <input type="checkbox" name="interests[]" id="interestsNews" value="News" /><label for="interestsNews" class="opt">News</label>
+                <input type="checkbox" name="interests[]" id="interestsSports" value="Sports" /><label for="interestsSports" class="opt">Sports</label>
+                <input type="checkbox" name="interests[]" id="interestsEntertainment" value="Entertainment" /><label for="interestsEntertainment" class="opt">Entertainment</label>
+                <input type="checkbox" name="interests[]" id="interestsCars" value="Cars" /><label for="interestsCars" class="opt">Automotive</label>
+                <input type="checkbox" name="interests[]" id="interestsTechnology" value="Technology" /><label for="interestsTechnology" class="opt">Technology</label>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><label for="languages">Languages:</label></dt>
+            <dd>
+            	<select size="4" name="languages[]" id="languages" multiple="multiple">
+                	<option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="Russian">Russian</option>
+                    <option value="Esperanto">Esperanto</option>
+                </select>
+            </dd>
+        </dl>
+    </fieldset>
+    <fieldset>
+    	<legend>Comments</legend>
+        <dl>
+        	<dt><label for="comments">Message:</label></dt>
+            <dd><textarea name="comments" id="comments" rows="5" cols="60"></textarea></dd>
+        </dl>
+        <dl>
+        	<dt><label for="upload">Upload a File:</label></dt>
+            <dd><input type="file" name="upload" id="upload" /></dd>
+        </dl>
+        <dl>
+        	<dt><label for="test">Sample Button:</label></dt>
+            <dd><button type="button" name="test" id="test">I Do Nothing</button></dd>
+        </dl>
+    </fieldset>
+    <fieldset class="action">
+    	<input type="submit" name="submit" id="submit" value="Submit" />
+    </fieldset>
+</form>
+<p id="footer">Niceforms v.2.0<br />&copy;Lucian Slatineanu - <a href="http://www.emblematiq.com/">Emblematiq</a><br />Last update: Nov 13 2008</p>
+</div>
+</body>
+</html>

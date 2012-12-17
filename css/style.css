@@ -1,0 +1,334 @@
+/*------------------------- Layout styles ------------------------*/ 
+body{
+	margin:0;
+	background:url(../images/bg-body.jpg);
+}
+#page{
+	background:url(../images/topbg.png) repeat-x center top;
+}
+p{
+	color:#5d5d5d;
+	font-family: Rokkitt;
+	font-size:16px;
+	line-height:25px;
+	text-shadow: 0 1px 0 #fcfcfc;
+	text-align:justify;
+	margin:0;
+}
+a{
+	color:#6699FF;
+}
+hgroup h3 , hgroup h2 , hgroup h1{
+	color:#000;
+	font-size:36px;
+	font-family: Rokkitt;
+	margin:0 0 20px;
+	padding:10px 0 0;
+	font-weight:normal;
+}
+hgroup h1 , hgroup h1{
+	font-size:36px;
+}
+hgroup h2 , hgroup h2{
+	font-size:26px;
+}
+hgroup h3 , hgroup h3{
+	font-size:20px;
+	padding-top:5px;
+	margin-top:0px;
+}
+.mandatory{
+	color:#FF0000;
+}
+
+/*------------------------- Font ------------------------*/ 
+@font-face{
+	src: url('Norican.ttf');
+	font-fammily: Norican;
+	src: url('Rokkitt.ttf');
+	font-fammily: Rokkitt;
+}
+
+/*------------------------- Header ------------------------*/ 
+header{
+	height:80px;
+	padding-top:10px;
+}
+.logo{
+	font: 42px/50px Norican;
+	color:#FFFFFF;
+	text-align:right;
+}
+.logo a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+header ul{
+	margin:0;
+	list-style:none;
+	padding:15px 0 0;
+	float:right;
+}
+header ul li{
+	float:left;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	margin:0 0 0 15px;	
+	padding:5px 20px 5px 20px ;
+}
+header ul li.selected , header ul li:hover{
+	color:#ffffff;
+	background-color:#f78117;
+}
+header ul li a{
+	font-size:16px;
+	text-decoration:none;
+	color:#ffffff;
+	font-family: Rokkitt;
+	outline:none;
+}
+
+/*------------------------- Body ------------------------*/ 
+#body{
+	background:#fff;
+	margin:0 auto;
+	margin-top:-10px;
+	overflow:hidden;
+	min-height:400px;
+	padding: 20px 0px ;
+}
+button.join{
+	font-size:20px;
+	font-weight:bold;
+	font-family: Rokkitt;
+	padding:5px 25px;
+	border:2px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+}
+button.green{
+	background:url(../images/joinGreen.png);
+}
+button.orange{
+	background:url(../images/joinOrange.png);
+	padding:5px 47px;
+}
+
+.stock{
+	text-align:center;
+	padding:10px 0px;
+	background:url(../images/stockbg.png);
+	margin-bottom:30px;
+	color:#999999;
+	font-size:20px;
+}
+/********harsh************/
+.links ul{
+	list-style:none;
+	margin:0;
+	margin-bottom:10px;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+.links ul li:first-child a{
+	border:none;
+	padding:0 6px 0 0;
+}
+.links ul li{
+	float:left;
+}
+.links ul li a:hover{
+	color:#F78117;
+}
+.links ul li a{
+	border-left:1px solid #000;
+	color:#6699FF;
+	font-size:14px;
+	font-family: Trebuchet MS;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0 6px;
+	outline:none;
+}
+/*--------------- Login ---------------*/
+#login{
+	-webkit-box-shadow: #000 3px 3px 15px;
+	-moz-box-shadow: #000 3px 3px 15px;
+	box-shadow: #000 3px 3px 15px;
+	padding:20px;
+	margin-top:50px;
+	background:url(../images/bg-body.jpg);
+	border:#fff 4px solid;
+}
+#login div{
+	background:#fff;
+	margin:0px 10px 20px 10px;
+	padding:10px 5px 20px 10px;
+	border:#CCCCCC solid 1px;
+}
+input{
+	background:url(../images/bg-body.jpg);
+}
+#login input{
+	width:300px;
+	height:35px;
+	font-size:20px;
+}
+
+/*--------------- CMS ---------------*/
+.cms table{
+	max-width:100%;
+}
+.cms th, .cms td, .cms caption{
+	color:#5d5d5d;
+	/*font-family: Rokkitt;*/
+	font-size:16px;
+	line-height:25px;
+	padding-right:10px;
+	/*text-shadow: 0 1px 0 #fcfcfc;*/
+	text-align:justify;
+	margin:0;
+}
+.cms th{
+	text-align:center;
+}
+
+/*--------------- Data entry ---------------*/
+ol li {
+	text-align:left;
+	color:#5d5d5d;
+	font-family: Rokkitt;
+	font-size:16px;
+	line-height:25px;
+	text-shadow: 0 1px 0 #fcfcfc;
+	text-align:justify;
+	margin:0;	
+}
+.headlines ol{
+	list-style-type:none;
+}
+
+/*--------------- Setting ---------------*/
+.property{
+	list-style:none;
+	margin:0px 0px 10px 40px;
+	padding:0;
+	overflow:hidden;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	list-style-type: none;
+}
+.property ul li{
+	
+}
+
+/*--------------- Benefits ---------------*/
+#benefits{
+	-webkit-box-shadow: #000 3px 3px 15px;
+	-moz-box-shadow: #000 3px 3px 15px;
+	box-shadow: #000 3px 3px 15px;
+	padding:10px;
+	margin-top:30px;
+	background:url(../images/bg-body.jpg);
+	border:#fff 4px solid;
+	min-height:150px;
+}
+#benefits div{
+	background:#fff;
+	margin:0px 10px 20px 10px;
+	padding:10px 5px 20px 10px;
+	border:#CCCCCC solid 1px;
+}
+
+/*--------------- Link Page ---------------*/
+.linkpage{
+	list-style:none;
+	margin:0px 0px 10px 40px;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	list-style-type: none;
+}
+.linkpage li img{
+	width:150px;
+	height:100px;
+}
+
+/*--------------- SpotLight ---------------*/
+.pannel1 div{
+	/*text-align:left;*/
+	padding:10px;
+	margin:10px 25px;
+	color:#fff;
+	font-family: Rokkitt;
+	font-size:16px;
+	line-height:25px;
+	text-align:justify;
+}
+.pannel1 p{
+	color:#5d5d5d;
+	font-family: Rokkitt;
+	font-size:16px;
+	line-height:25px;
+	text-shadow: 0 1px 0 #fcfcfc;
+	text-align:justify;
+	margin:0;
+}
+/********harsh************/
+
+
+/*------------------------- Footer ------------------------*/ 
+footer{
+	margin:0 auto;
+	padding-top:10px;
+	overflow:hidden;
+}
+footer ul{
+	list-style:none;
+	margin:0;
+	margin-bottom:25px;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+footer ul li:first-child a{
+	border:none;
+	padding:0 6px 0 0;
+}
+footer ul li{
+	float:left;
+}
+footer ul li a:hover{
+	color:#F78117;
+}
+footer ul li a{
+	border-left:1px solid;
+	color:#5b5b5b;
+	font-size:13px;
+	font-family: Trebuchet MS;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0 6px;
+	outline:none;
+}
+.connect ul{
+	text-align:right;
+	float:right;
+}
+.connect ul li a{
+	border-width: 0px;
+	padding:0 2px;
+	outline:none;
+	text-decoration:none;
+}
+.connect ul li a:hover{
+	border:0px;
+	color:#5b5b5b;
+}
+.connect ul li:first-child a{
+	border:none;
+	padding:0 2px 0 0;
+}

@@ -1,0 +1,290 @@
+/*Defaults Styling*/
+body {font:16px Rokkitt; color:#003455; }
+fieldset {background:#f2f2e6; padding:10px; border:1px solid #fff; border-color:#f2f2e6 ; margin-bottom:36px; width:850px; font:20px  Rokkitt;}
+input, textarea, select,optgroup {font:20px Rokkitt; padding:0;}
+fieldset.action {background:#003455; border-color:#e5e5e5 #797c80 #797c80 #e5e5e5; margin-top:-20px;}
+legend {background:#003455; color:#fff; font:24px  Rokkitt; padding:0 10px; margin:-26px 0 0 -11px; font-weight:bold; border:1px solid #fff; border-color:#e5e5c3 #505014 #505014 #e5e5c3;}
+label {font-size:11px; font-weight:bold; color:#666;}
+label.opt {font-weight:normal;}
+dl {clear:both;}
+dt {float:left; text-align:right; width:90px; line-height:25px; margin:0 10px 10px 0;}
+dd {float:left; width:475px; line-height:25px; margin:0 0 10px 0;}
+#footer {font-size:11px;}
+table{ width:800px;}
+tbody{
+		font-size:20px;
+		}
+.main_table td{ padding-bottom:8px;}		
+	
+
+#container {width:700px; margin:0 auto;}
+
+
+
+/* Gradient 2 */
+.tb7  {
+	width: 221px;
+	background: transparent url('img/bg.jpg') no-repeat;
+	color :#003455;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	
+}
+
+
+.tb8  {
+	width: 685px;
+	background: transparent url('img/bg2.jpg') no-repeat;
+	color :#003455;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	
+}
+
+
+
+
+
+/* Gradient 1 */
+.ta10 {
+	background-image:url(img/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 330px;
+	height: 140px;
+	color:#003455;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+
+}
+
+
+
+.ta11 {
+	background-image:url(img/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 670px;
+	height: 140px;
+	color:#003455;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+
+}
+
+
+
+
+/* Hover Button 1 */
+.fb5 {
+	background-color: #db6600;
+	padding-left:8px;
+	padding-right:8px;
+	padding-top:4px;
+	padding-bottom:4px;	
+	color: #ffffff;
+	border:1px solid #db6600;
+	background-image: url(img/button_bg.jpg);
+}
+.fb5:hover {
+	background-color: #000000;	
+	border:1px solid #000000;
+	background: green;
+}
+
+
+
+
+button.join{
+	font-size:20px;
+	font-weight:bold;
+	font-family: Rokkitt;
+	padding:5px 25px;
+	border:2px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+}
+button.green{
+	background:url(img/joinGreen.png);
+}
+
+
+
+
+
+
+/* The CSS */
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #ffffff;
+    color:#003455;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+/*checkbox*/
+
+.regular-checkbox  {
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-checkbox :active, .regular-checkbox:checked :active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked :after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+
+
+
+
+
+
+
+
+/*##########################################
+Script: Niceforms 2.0
+Theme: StandardBlue
+Author: Lucian Slatineanu
+URL: http://www.emblematiq.com/
+##########################################*/
+
+/*Text inputs*/
+.NFText {border:none; vertical-align:middle; font:12px/15px Arial, Helvetica, sans-serif; background:none;}
+.NFTextCenter {height:15px; background:url(img/input.png) repeat-x 0 0; padding:3px 0; margin:0; float:left; line-height:15px;}
+.NFTextLeft, .NFTextRight {width:7px; height:21px; vertical-align:middle; float:left;}
+.NFTextLeft {background:url(img/input-left.png) no-repeat 0 0;}
+.NFTextRight {background:url(img/input-right.png) no-repeat 0 0;}
+/*Radio*/
+.NFRadio {cursor:pointer; position:absolute; display:block; width:13px; height:13px; border:1px solid transparent; background:url(img/radio.png) no-repeat 0 0; z-index:2;}
+/*Checkbox*/
+.NFCheck {cursor:pointer; position:absolute; width:12px; height:12px; border:1px solid transparent; background:url(img/checkbox.png) no-repeat 0 0; z-index:2;}
+/*Buttons*/
+.NFButton {width:auto; height:26px; color:#fff; padding:0 2px; background:url(img/button.png) repeat-x 0 0; cursor:pointer; border:none; font:10px/26px Tahoma, Arial, Helvetica, sans-serif; font-weight:bold; text-transform:uppercase; letter-spacing:1px; vertical-align:middle;}
+.NFButtonLeft, .NFButtonRight {width:6px; height:26px; vertical-align:middle;}
+.NFButtonLeft {background:url(img/button-left.png) no-repeat 0 0;}
+.NFButtonRight {background:url(img/button-right.png) no-repeat 0 0;}
+/*Textareas*/
+.NFTextarea {border:none; background:none; font:12px/12px Arial, Helvetica, sans-serif; margin:0;}
+.NFTextareaTop, .NFTextareaBottom {height:5px; clear:both; float:none; padding-right:10px;}
+.NFTextareaTop {background:url(img/textarea-tr.png) no-repeat 100% 0;}
+.NFTextareaBottom {background:url(img/textarea-br.png) no-repeat 100% 0; margin-bottom:5px;}
+.NFTextareaTopLeft, .NFTextareaBottomLeft {width:5px; height:5px;}
+.NFTextareaTopLeft {background:#f2f2e6 url(img/textarea-tl.png) no-repeat 0 0;}
+.NFTextareaBottomLeft {background:#f2f2e6 url(img/textarea-bl.png) no-repeat 0 0;}
+.NFTextareaLeft, .NFTextareaRight, .NFTextareaLeftH, .NFTextareaRightH {float:left; padding-bottom:5px;}
+.NFTextareaLeft, .NFTextareaLeftH {width:5px;}
+.NFTextareaLeft {background:url(img/textarea-l-off.png) repeat-y 0 0;}
+.NFTextareaLeftH {background:url(img/textarea-l-over.png) repeat-y 0 0;}
+.NFTextareaRight, .NFTextareaRightH {padding-right:5px; padding-bottom:0;}
+.NFTextareaRight {background:url(img/textarea-r-off.png) repeat-y 100% 0;}
+.NFTextareaRightH {background:url(img/textarea-r-over.png) repeat-y 100% 100%;}
+/*Files*/
+.NFFileButton {padding-bottom:0; vertical-align:bottom; cursor:pointer; background:url(img/file.png) no-repeat 0 0; width:60px; height:21px;}
+.NFFile {position:relative; margin-bottom:5px;}
+.NFFile input.NFhidden {position:relative; filter:alpha(opacity=0); opacity:0; z-index:2; cursor:pointer; text-align:left;}
+.NFFileNew {position:absolute; top:0px; left:0px; z-index:1;}
+/*Selects*/
+.NFSelect {height:21px; position:absolute; border:1px solid transparent;}
+.NFSelectLeft {float:left; width:3px; height:21px; background:url(img/select-left.png) no-repeat 0 0; vertical-align:middle;}
+.NFSelectRight {height:21px; width:auto; background:url(img/select-right.png) no-repeat 100% 0; cursor:pointer; font:12px/21px Arial, Helvetica, sans-serif; color:#fff; padding-left:3px; margin-left:3px;}
+.NFSelectTarget {position:absolute; background:none; margin-left:-13px; margin-top:18px; z-index:3; left:0; top:0; padding-bottom:13px;}
+.NFSelectOptions {position:relative; background:#707175; margin-left:16px; margin-top:0; list-style:none; padding:4px 0; color:#fff; font:11px/13px Arial, Helvetica, sans-serif; z-index:4; max-height:200px; overflow-y:auto; overflow-x:hidden; left:0; top:0;}
+.NFSelectOptions li {padding-bottom:1px;}
+.NFSelectOptions a {display:block; text-decoration:none; color:#fff; padding:2px 3px; background:none;}
+.NFSelectOptions a.NFOptionActive {background:#464646;}
+.NFSelectOptions a:hover {background:#333;}
+/*Multiple Selects*/
+.NFMultiSelect {border:0; background:none; margin:0;}
+.NFMultiSelectTop, .NFMultiSelectBottom {height:5px; clear:both; float:none; padding-right:10px;}
+.NFMultiSelectTop {background:url(img/textarea-tr.png) no-repeat 100% 0;}
+.NFMultiSelectBottom {background:url(img/textarea-br.png) no-repeat 100% 0; margin-bottom:5px;}
+.NFMultiSelectTopLeft, .NFMultiSelectBottomLeft {width:5px; height:5px;}
+.NFMultiSelectTopLeft {background:#f2f2e6 url(img/textarea-tl.png) no-repeat 0 0;}
+.NFMultiSelectBottomLeft {background:#f2f2e6 url(img/textarea-bl.png) no-repeat 0 0;}
+.NFMultiSelectLeft, .NFMultiSelectRight, .NFMultiSelectLeftH, .NFMultiSelectRightH {float:left; padding-bottom:5px;}
+.NFMultiSelectLeft, .NFMultiSelectLeftH {width:5px;}
+.NFMultiSelectLeft {background:url(img/textarea-l-off.png) repeat-y 0 0;}
+.NFMultiSelectLeftH {background:url(img/textarea-l-over.png) repeat-y 0 0;}
+.NFMultiSelectRight, .NFMultiSelectRightH {padding-right:5px; padding-bottom:0;}
+.NFMultiSelectRight {background:url(img/textarea-r-off.png) repeat-y 100% 0;}
+.NFMultiSelectRightH {background:url(img/textarea-r-over.png) repeat-y 100% 0;}
+
+/*Focused*/
+.NFfocused {border:1px dotted #666;}
+/*Hovered*/
+.NFh {background-position:0 100%;}
+.NFhr {background-position:100% 100%;}
+/*Hidden*/
+.NFhidden {opacity:0; z-index:-1; position:relative;}
+/*Safari*/
+/*select, input, textarea, button {outline:none; resize:none;}*/
