@@ -28,7 +28,7 @@
 				<div class="grid_1">&nbsp;</div>
 				<div class="clear"></div>
 				<div class="grid_24">
-					<center><hgroup><h1>Give heading you want</h1></hgroup></center>
+					<center><hgroup><h1>Best Place For Book Lovers</h1></hgroup></center>
 				</div>
 				<div class="grid_24">
 					<ul id="slider">
